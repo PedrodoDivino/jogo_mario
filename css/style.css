@@ -22,11 +22,11 @@
 .mario{
     width:150px;
     position: absolute;
-    bottom:-10px;
+    bottom:0px;
 
 }
 .pulo{
-    animation: pulo 700ms ease-in-out; 
+    animation: pulo 600ms ease-in-out; 
 }
 .nuvem{
     width:100vw;

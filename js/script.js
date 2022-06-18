@@ -15,18 +15,16 @@ mario.classList.remove('pulo');
 const loop = setInterval(()=>{
 
     const pipePosition = tubo.offsetLeft;
-    const marioPosition = +window.getComputedStyle(mario).bottom.replace('px','');
+    const marioPosition = + window.getComputedStyle(mario).bottom.replace('px','');
 
 
-if (pipePosition <= 120  && pipePosition > 0 && marioPosition < 100 ){
+if (pipePosition <= 120  && pipePosition > 0 && marioPosition < 80 ){
 
     tubo.style.animation = 'none';
 
     tubo.style.left = `${pipePosition}px`;
 
     tubo.style.animation = 'none';
-
-    tubo.style.bottom = `${marioPosition}px`;
 
         mario.src = 'image/gameOver.webp'  
         mario.style.width="120px";
