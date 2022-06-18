@@ -15,7 +15,7 @@
 .tubo{
     position: absolute;
     bottom: 0;
-    width:60px;
+    width:70px;
      animation: tubo-animation 2s infinite linear; 
 }
 
@@ -26,7 +26,7 @@
 
 }
 .pulo{
-    animation: pulo 600ms ease-in-out; 
+    animation: pulo 800ms ease-in-out; 
 }
 .nuvem{
     width:100vw;
