@@ -19,7 +19,7 @@ const loop = setInterval(()=>{
     const marioPosition = + window.getComputedStyle(mario).bottom.replace('px','');
 
 
-if (pipePosition <= 120  && pipePosition > 0 && marioPosition < 80 ){
+if (pipePosition <= 100  && pipePosition > 0 && marioPosition < 60 ){
 
     tubo.style.animation = 'none';
 

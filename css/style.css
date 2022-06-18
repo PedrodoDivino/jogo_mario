@@ -15,7 +15,7 @@
 .tubo{
     position: absolute;
     bottom: 0;
-    width:80px;
+    width:60px;
      animation: tubo-animation 2s infinite linear; 
 }
 
@@ -37,6 +37,10 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     background:#87ceeb;
+
+}
+.description a{
+    text-decoration: none;
 }
 @keyframes tubo-animation {
     from{
