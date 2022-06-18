@@ -30,8 +30,13 @@
 }
 .nuvem{
     width:100vw;
-   
-    
+}
+.description{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    background:#87ceeb;
 }
 @keyframes tubo-animation {
     from{

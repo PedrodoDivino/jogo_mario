@@ -1,4 +1,5 @@
 const mario = document.querySelector('.mario');
+
 const tubo = document.querySelector('.tubo');
 
 const nuvem = document.querySelector('.nuvem');
@@ -33,5 +34,5 @@ if (pipePosition <= 120  && pipePosition > 0 && marioPosition < 80 ){
 clearInterval(loop)
 }
 }, 10)
-document.addEventListener('keydown',jump);
+document.addEventListener('click',jump);
 
