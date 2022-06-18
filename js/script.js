@@ -10,7 +10,7 @@ mario.classList.add('pulo');
 
 setTimeout(()=>{
 mario.classList.remove('pulo');
-}, 800);
+}, 1100);
 }
 
 const loop = setInterval(()=>{
